@@ -1,0 +1,19 @@
+{
+  "name": "poe-build-gen",
+  "version": "0.1.0",
+  "description": "poe passive tree gen",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "decode": "ts-node src/decode.ts",
+    "gen": "ts-node src/generate.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "author": "Kr4pper",
+  "license": "ISC"
+}
